@@ -1,0 +1,99 @@
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+p::selection,
+span::selection,
+a::selection{
+    color: #844fe0;
+    background: #333;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.dropdown-menu li>a:hover,
+.dropdown-menu li>a:focus,
+.dropdown-menu .divider,
+.gear-check,
+.carousel-indicators .active,
+.carousel-indicators li.active,
+.nicescroll-cursors,
+.about-ceo .btn-primary,
+.subcribe .btn-danger,
+.subcribe .btn-danger,
+.our-skills .btn-primary,
+.contact-us .btn-danger,
+.faq-questions .panel-heading{
+    background-color: #673ab7 !important;
+}
+.navbar-inverse .navbar-brand:hover span,
+#scroll-top:hover,
+.nicescroll-cursors:hover,
+.our-team .person a i:hover{
+    color: #4f0dc0;
+}
+.about h1 span,
+.navbar-inverse .navbar-brand span,
+.features .h1,
+.about .h1,
+.testimonials .h1,
+.testimonials span,
+.Price-table .h1,
+.our-team .h1,
+.subcribe .h1,
+.statistics .h1,
+.our-skills .h1,
+.contact-us .h1,
+.footer h2,
+.footer .copyright span,
+#scroll-top,
+.breadcrumb a,
+.our-team .person a i,
+.about-us h1,
+.about-features i,
+.about-features h3,
+.about-ceo .h1,
+.faq h1,
+.glyphicon-chevron-right:before,
+.glyphicon-chevron-left:before{
+    color: #673ab7;
+}
+.color-option,
+.testimonials .carousel-indicators li.active,
+.about-ceo .btn-primary{
+    border: 3px solid #673ab7;
+}
+.dropdown-menu{
+    border-top: 3px solid #673ab7;
+}
+.form-control:focus {
+    caret-color: #673ab7;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #673ab7;
+}
+
+.features,
+.Price-table,
+.subcribe{
+    background-color: #eee;
+}
+
+.about-ceo .btn-primary,
+.faq-questions .panel-heading{
+    color: white;
+}
+
+.subcribe .btn-danger,
+.our-skills .btn-primary,
+.contact-us .btn-danger{
+    border-color: #4f0dc0;
+}
+
+.subcribe .btn-danger:hover,
+.our-skills .btn-primary:hover,
+.contact-us .btn-danger:hover{
+    background-color: #4f0dc0 !important;
+}
+
+.panel-body{
+    border: 1px solid #673ab7;
+}

@@ -1,0 +1,33 @@
+.option-box .color-option {
+    float: right;
+  }
+  .footer .three-columns li {
+    float: right;
+  }
+  
+  .footer .social-list li {
+    float: right;
+    margin-left: 8px;
+    margin-right: 0;
+  }
+  
+  .subcribe .form-control {
+    margin-left: -5px;
+  }
+  
+  .option-box .color-option ul li {
+    margin-right: 7px;
+  }
+  
+  .testimonials .carousel-indicators {
+    margin-right: auto;
+  }
+  
+  .carousel-caption {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .dropdown-menu li > a:hover, .dropdown-menu li > a:focus {
+    padding-right: 30px;
+  }

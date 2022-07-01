@@ -1,0 +1,82 @@
+// Import Variables
+@use "../css/sass/helpers/variables" as *;
+// Start Header
+// Main Navbar
+.scrolled{
+  background-color: rgba(0, 0, 0, .5);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+.navbar {
+  min-height: 70px;
+}
+    // Navbar Link
+    .navbar-inverse .navbar-nav > li > a {
+      color: #bbb;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      font-size: 14px;
+    }
+.navbar-inverse .navbar-brand {
+    color: #bbb;
+    font-size: 30px;
+    line-height: 40px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    span{
+      transition: .4s;
+      -webkit-transition: .4s;
+      -moz-transition: .4s;
+      -ms-transition: .4s;
+      -o-transition: .4s;
+}
+}
+  /* Dropdown Menu */
+  .dropdown-menu {
+    background-color: #333;
+    min-width: 200px;
+    li > a {
+        color: #fff;
+        padding: 6px 20px;
+        transition: padding 0.4s ease;
+        -webkit-transition: padding 0.4s ease;
+        -moz-transition: padding 0.4s ease;
+        -ms-transition: padding 0.4s ease;
+        -o-transition: padding 0.4s ease;
+        &:hover, &:focus{
+            color: #fff;
+            padding-left: 30px;
+        }
+      }
+  }
+
+  .navbar-nav > li > .dropdown-menu {
+    left: 0;
+    right: auto;
+  }
+  
+  /* Navbar Toggle */
+  .navbar-toggle {
+    margin-top: 18px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+  }
+
+  .navbar li.dropdown a.dropdown-toggle{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+  }
+// End Navbar
+// End Header

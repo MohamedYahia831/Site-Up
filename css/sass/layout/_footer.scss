@@ -1,0 +1,56 @@
+// Import Variables
+@use "../css/sass/helpers/variables" as *;
+  //Start Ultimate Footer Section
+  .footer{
+    background-color: #111;
+    color: #aaa;
+    padding-top: 10px;
+    .h2{
+      margin: 30px 0 20px;
+    }
+    .three-columns{
+      overflow: hidden;
+      li{
+        width: 33.3333%;
+        float: left;
+        padding: 5px;
+      }
+    }
+    .social-list{
+      overflow: hidden;
+      margin: 20px 0 10px;
+      li{
+        float: left;
+        margin-right: 8px;
+        opacity: .6;
+        transition: .7s;
+        -webkit-transition: .7s;
+        -moz-transition: .7s;
+        -ms-transition: .7s;
+        -o-transition: .7s;
+        cursor: pointer;
+        &:hover{
+          opacity: 1;
+        }
+      }
+    }
+    a{
+      color: #aaa;
+      &:hover{
+        color: #fff;
+      }
+    }
+    .img-thumbnail{
+      background-color: rgba(0, 0, 0, .2);
+      border: 1px solid #444;
+      margin-bottom: 5px;
+    }
+    .copyright{
+      background-color: #333;
+      color: #aaa;
+      padding: 15px 0;
+      font-size: 18px;
+      margin-top: 30px;
+    }
+  }
+  //End Ultimate Footer Section

@@ -1,0 +1,59 @@
+// Import Variables
+@use "../css/sass/helpers/variables" as *;
+
+// Start Default Theme
+
+body {
+    ::selection {
+        background-color: black;
+        color: $redcolor;
+    }
+}
+
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.dropdown-menu li>a:hover,
+.dropdown-menu li>a:focus,
+.dropdown-menu .divider,
+.gear-check,
+.carousel-indicators .active,
+.carousel-indicators li.active
+{
+    background-color: $redcolor;
+}
+.navbar-inverse .navbar-brand span:hover{
+    color: red;
+}
+.about h1 span,
+.navbar-inverse .navbar-brand span,
+.about h1,
+.testimonials h1,
+.testimonials span,
+.Price-table h1,
+.our-team h1,
+.subcribe h1,
+.statistics h1,
+.our-skills h1,
+.contact-us h1,
+.footer h2,
+.footer .copyright span{
+    color: #e41b17;
+}
+.option-boxو,
+.testimonials .carousel-indicators li.active{
+    border: 3px solid #e41b17;
+}
+.dropdown-menu{
+    border-top: 3px solid #e41b17;
+}
+    
+.form-control:focus {
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #e41b17;
+}
+.form-control:focus {
+    border-color: #e41b17;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px #e41b17;
+}
+// End Default Theme
